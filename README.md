@@ -79,9 +79,9 @@ correcting the bit range used at capture time.
 Quartus compilation report, programmer, and ModelSim waveform screenshots are in
 `docs/results/`.
 
-![Quartus Compilation Summary](docs/results/quartus_compilation.png)
-![Quartus Programmer - Successful](docs/results/quartus_programmer_success.png)
-![ModelSim Waveform](docs/results/modelsim_waveform.png)
+![Quartus Compilation Summary](docs/results/quartus_compilation.jped)
+![Quartus Programmer - Successful](docs/results/quartus_programmer_success.jpeg)
+![ModelSim Waveform](docs/results/modelsim_waveform.jpeg)
 
 ## Demo Video
 
