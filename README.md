@@ -25,9 +25,11 @@ activity LED that toggles on every new key event.
 │   └── tb_ps2_receiver.v  # Testbench for ps2_receiver (ModelSim)
 ├── quartus/
 │   ├── PS2_Keyboard.qpf   # Quartus project file
-│   └── PS2_Keyboard.qsf   # Pin assignments / project settings
+│   └── PS2_Keyboard.qsf   # Pin assignments 
 ├── docs/
-│   └── results/       # Quartus compile reports & ModelSim waveform screenshots
+    └──Quartus_compilation.jpeg
+    └──quartus_programmer_success.jpeg
+    └──modelsim_waveform.jpeg    # Quartus compile reports & ModelSim waveform screenshots
 └── README.md
 ```
 
@@ -77,11 +79,11 @@ correcting the bit range used at capture time.
 ## Screenshots
 
 Quartus compilation report, programmer, and ModelSim waveform screenshots are in
-`docs/results/`.
+`docs/`.
 
-![Quartus Compilation Summary](docs/results/quartus_compilation.jped)
-![Quartus Programmer - Successful](docs/results/quartus_programmer_success.jpeg)
-![ModelSim Waveform](docs/results/modelsim_waveform.jpeg)
+![Quartus Compilation Summary](docs/Quartus_compilation.jpeg)
+![Quartus Programmer - Successful](docs/quartus_programmer_success.jpeg)
+![ModelSim Waveform](docs/modelsim_waveform.jpeg)
 
 ## Demo Video
 
