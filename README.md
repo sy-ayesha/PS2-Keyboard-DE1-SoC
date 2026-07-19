@@ -71,12 +71,14 @@ the expected PS/2 Scan Code Set 2 values.
 
 ## Known Bug Fixed
 
+
+
 An earlier version captured `scan_code` one falling edge too early, extracting
 `shift_reg[8:1]` instead of `shift_reg[9:2]`. This produced a left-shifted,
 MSB-dropped scan code (e.g. `A` = `0x1C` was read as `0x38`). Fixed by
 correcting the bit range used at capture time.
 
-## Screenshots
+## Results
 
 Quartus compilation report, programmer, and ModelSim waveform screenshots are in
 `docs/`.
@@ -90,4 +92,8 @@ Quartus compilation report, programmer, and ModelSim waveform screenshots are in
 A short video of the design running on real DE1-SoC hardware (PS/2
 keyboard scan codes shown live on the 7-segment displays) is included below.
 
-https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/assets/PASTE_VIDEO_LINK_HERE
+
+
+https://github.com/user-attachments/assets/105ab8e1-b600-4865-a6e4-ba4acfd9815b
+
+
