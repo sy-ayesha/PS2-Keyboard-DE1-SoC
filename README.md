@@ -1,4 +1,3 @@
-# PS2-Keyboard-DE1-SoC
 # PS2 Keyboard Interface — DE1-SoC (Cyclone V)
 
 A Verilog implementation of a PS/2 keyboard receiver for the Terasic DE1-SoC board.
